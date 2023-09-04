@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="bootil">
+			<UniqueIdentifier>{7304E7DD-2527-E041-93EC-BCEE32CBDBF9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src">
+			<UniqueIdentifier>{0B1A6CFA-019B-F44C-A21F-6BE707B826C4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty">
+			<UniqueIdentifier>{0D79FC81-CD76-E347-8072-A7729F0707AD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\fastlz">
+			<UniqueIdentifier>{7E32AE0E-2A27-7447-AC78-8A387B0AADE6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\happyhttp">
+			<UniqueIdentifier>{4CCC359C-493C-D64E-A060-24226A8660BF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\jpegcompressor">
+			<UniqueIdentifier>{B4756131-F32B-2441-BEB6-1E0684C30AA8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\lzma">
+			<UniqueIdentifier>{D142FF0D-0DB1-4C45-B701-2AC56099D484}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\rapidjson">
+			<UniqueIdentifier>{9C608A54-AACB-4749-B5BC-F827728A5BCA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\rapidjson\internal">
+			<UniqueIdentifier>{58F0F922-DFA0-2340-8DFC-48F517FA2765}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\smhasher">
+			<UniqueIdentifier>{7176C9FC-3683-FC43-9819-A9B9BA8D46D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\stb_image">
+			<UniqueIdentifier>{F10BBF9C-9B05-1447-9DA9-6EAF4FB51C9D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\stlencoders">
+			<UniqueIdentifier>{7BA5C9EC-8932-CA44-8A44-4CC5AB6BCBE9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\tinythreadpp">
+			<UniqueIdentifier>{076B1BFD-1D08-FE4B-A893-EC4AF205B63A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\xzip">
+			<UniqueIdentifier>{2F2E5F5E-0B0F-6448-B18A-648A57E0550A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\3rdParty\zlib">
+			<UniqueIdentifier>{66DB6959-60B4-1543-B747-2CA80F66E479}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include">
+			<UniqueIdentifier>{2A3FD473-7A85-0649-BCA9-7878CB421F84}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil">
+			<UniqueIdentifier>{A72B4F64-AE55-754A-A017-72859A34DCAB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Console">
+			<UniqueIdentifier>{A0768CFE-F5F6-C845-B556-AE848130E732}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Data">
+			<UniqueIdentifier>{5C2754F8-0F50-464D-A64D-681D164712EF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Debug">
+			<UniqueIdentifier>{32B32691-C21A-1249-AA9D-189AB10ECFD9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\File">
+			<UniqueIdentifier>{E44140F6-5EB7-D342-BDF4-1B9E3AE1542C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Image">
+			<UniqueIdentifier>{7D460387-5238-0246-BE69-3597EB4E610A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Network">
+			<UniqueIdentifier>{10329F3B-C55F-1F42-8C48-2715530104FD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Platform">
+			<UniqueIdentifier>{F2E919A4-12F7-9344-9848-AA27EA69027C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Threads">
+			<UniqueIdentifier>{4178181F-E5F9-B84A-9352-0009EF866998}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Types">
+			<UniqueIdentifier>{135CF1F8-ABC7-354D-8086-CAC920308596}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\include\Bootil\Utility">
+			<UniqueIdentifier>{5E86634A-99EA-4543-B30E-D0D4A90295C3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil">
+			<UniqueIdentifier>{37B9A18E-B1E4-8147-B7D7-934FE243B321}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Console">
+			<UniqueIdentifier>{FC487EC5-BDDC-1346-B99F-91380C7019F5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Data">
+			<UniqueIdentifier>{AAEE2AFA-F754-8B40-BF1E-F1BF9E295D10}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Debug">
+			<UniqueIdentifier>{B75AE8AE-E0C4-DC46-B05E-BCB14EE684DB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\File">
+			<UniqueIdentifier>{828B25E0-9AD2-AB4B-AD92-71030F4D2C79}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Image">
+			<UniqueIdentifier>{50D3E78B-C0C7-7840-B69F-7297D7769BC2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Network">
+			<UniqueIdentifier>{DC46045C-61A8-A348-9CA9-E7C345EA7161}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Platform">
+			<UniqueIdentifier>{D928C8C9-C247-D743-80B3-38D81E936115}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Threads">
+			<UniqueIdentifier>{C4F78DC9-F22F-CE45-867C-8AD270064AEF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Types">
+			<UniqueIdentifier>{30D2FA40-653F-7B4B-8003-5EF0FBCBE4F4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bootil\src\Bootil\Utility">
+			<UniqueIdentifier>{D3B9F545-B7B7-DF41-9C6C-DAF01F6C6275}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\bootil\src\3rdParty\fastlz\fastlz.h">
+			<Filter>bootil\src\3rdParty\fastlz</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.h">
+			<Filter>bootil\src\3rdParty\happyhttp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\jpegcompressor\jpge.h">
+			<Filter>bootil\src\3rdParty\jpegcompressor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\Alloc.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzFind.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzHash.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaDec.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaEnc.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaLib.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\Types.h">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\allocators.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\document.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\encodedstream.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\encodings.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filereadstream.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filestream.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filewritestream.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\prettywriter.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\rapidjson.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\reader.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\stringbuffer.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\writer.h">
+			<Filter>bootil\src\3rdParty\rapidjson</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\pow10.h">
+			<Filter>bootil\src\3rdParty\rapidjson\internal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\stack.h">
+			<Filter>bootil\src\3rdParty\rapidjson\internal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\strfunc.h">
+			<Filter>bootil\src\3rdParty\rapidjson\internal</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Bitvec.h">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Platform.h">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\pstdint.h">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Types.h">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stb_image\stb_image.h">
+			<Filter>bootil\src\3rdParty\stb_image</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base16.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base2.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base32.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base64.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\error.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\iterator.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\lookup.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\traits.hpp">
+			<Filter>bootil\src\3rdParty\stlencoders</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\tinythreadpp\fast_mutex.h">
+			<Filter>bootil\src\3rdParty\tinythreadpp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\tinythreadpp\tinythread.h">
+			<Filter>bootil\src\3rdParty\tinythreadpp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\xzip\unzip.h">
+			<Filter>bootil\src\3rdParty\xzip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\xzip\zip.h">
+			<Filter>bootil\src\3rdParty\xzip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\crc32.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\deflate.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\gzguts.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inffast.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inffixed.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inflate.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inftrees.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\trees.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zconf.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zlib.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zutil.h">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Base.h">
+			<Filter>bootil\include\Bootil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Bootil.h">
+			<Filter>bootil\include\Bootil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Console\Console.h">
+			<Filter>bootil\include\Bootil\Console</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Console\ConsoleInput.h">
+			<Filter>bootil\include\Bootil\Console</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Data\Json.h">
+			<Filter>bootil\include\Bootil\Data</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Data\Tree.h">
+			<Filter>bootil\include\Bootil\Data</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Debug\Debug.h">
+			<Filter>bootil\include\Bootil\Debug</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Debug\InstanceCounter.h">
+			<Filter>bootil\include\Bootil\Debug</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\File\Changes.h">
+			<Filter>bootil\include\Bootil\File</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\File\File.h">
+			<Filter>bootil\include\Bootil\File</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\File\System.h">
+			<Filter>bootil\include\Bootil\File</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\Image.h">
+			<Filter>bootil\include\Bootil\Image</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\JPEG.h">
+			<Filter>bootil\include\Bootil\Image</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\PNG.h">
+			<Filter>bootil\include\Bootil\Image</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\HTTP.h">
+			<Filter>bootil\include\Bootil\Network</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Network.h">
+			<Filter>bootil\include\Bootil\Network</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Router.h">
+			<Filter>bootil\include\Bootil\Network</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Socket.h">
+			<Filter>bootil\include\Bootil\Network</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Platform\Platform.h">
+			<Filter>bootil\include\Bootil\Platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Mutex.h">
+			<Filter>bootil\include\Bootil\Threads</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Thread.h">
+			<Filter>bootil\include\Bootil\Threads</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Utility.h">
+			<Filter>bootil\include\Bootil\Threads</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\Buffer.h">
+			<Filter>bootil\include\Bootil\Types</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\Math.h">
+			<Filter>bootil\include\Bootil\Types</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\String.h">
+			<Filter>bootil\include\Bootil\Types</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\CommandLine.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Compression.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Hasher.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\PackFile.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Processes.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\STLUtility.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Time.h">
+			<Filter>bootil\include\Bootil\Utility</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\bootil\src\3rdParty\globber.cpp">
+			<Filter>bootil\src\3rdParty</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\fastlz\fastlz.c">
+			<Filter>bootil\src\3rdParty\fastlz</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.cpp">
+			<Filter>bootil\src\3rdParty\happyhttp</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\jpegcompressor\jpge.cpp">
+			<Filter>bootil\src\3rdParty\jpegcompressor</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\Alloc.c">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzFind.c">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaDec.c">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaEnc.c">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaLib.c">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\smhasher\crc.cpp">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\smhasher\smhash_md5.cpp">
+			<Filter>bootil\src\3rdParty\smhasher</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\tinythreadpp\tinythread.cpp">
+			<Filter>bootil\src\3rdParty\tinythreadpp</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\xzip\unzip.cc">
+			<Filter>bootil\src\3rdParty\xzip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\xzip\zip.cc">
+			<Filter>bootil\src\3rdParty\xzip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\adler32.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\compress.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\crc32.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\deflate.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzclose.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzlib.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzread.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzwrite.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\infback.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inffast.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inflate.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inftrees.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\trees.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\uncompr.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\zutil.c">
+			<Filter>bootil\src\3rdParty\zlib</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Base.cpp">
+			<Filter>bootil\src\Bootil</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Console\Console.cpp">
+			<Filter>bootil\src\Bootil\Console</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Console\ConsoleInput.cpp">
+			<Filter>bootil\src\Bootil\Console</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Data\Json.cpp">
+			<Filter>bootil\src\Bootil\Data</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Data\Tree.cpp">
+			<Filter>bootil\src\Bootil\Data</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Debug\Debug.cpp">
+			<Filter>bootil\src\Bootil\Debug</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\Changes.cpp">
+			<Filter>bootil\src\Bootil\File</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\File.cpp">
+			<Filter>bootil\src\Bootil\File</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\System.cpp">
+			<Filter>bootil\src\Bootil\File</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Image\Image.cpp">
+			<Filter>bootil\src\Bootil\Image</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Image\JPEG.cpp">
+			<Filter>bootil\src\Bootil\Image</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\HTTP.cpp">
+			<Filter>bootil\src\Bootil\Network</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\Network.cpp">
+			<Filter>bootil\src\Bootil\Network</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\Socket.cpp">
+			<Filter>bootil\src\Bootil\Network</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_LINUX.cpp">
+			<Filter>bootil\src\Bootil\Platform</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_NULL.cpp">
+			<Filter>bootil\src\Bootil\Platform</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_OSX.cpp">
+			<Filter>bootil\src\Bootil\Platform</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_WINDOWS.cpp">
+			<Filter>bootil\src\Bootil\Platform</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Mutex.cpp">
+			<Filter>bootil\src\Bootil\Threads</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Thread.cpp">
+			<Filter>bootil\src\Bootil\Threads</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Utility.cpp">
+			<Filter>bootil\src\Bootil\Threads</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\Buffer.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\Math.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Convert.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Encode.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_File.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Format.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Sanitize.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Test.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_To.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_URL.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Util.cpp">
+			<Filter>bootil\src\Bootil\Types</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\CommandLine.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Compression.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\CompressionLZMA.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Hasher.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\PackFile.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Processes.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Time.cpp">
+			<Filter>bootil\src\Bootil\Utility</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\bootil\src\3rdParty\fastlz\README.TXT">
+			<Filter>bootil\src\3rdParty\fastlz</Filter>
+		</None>
+		<None Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.html">
+			<Filter>bootil\src\3rdParty\happyhttp</Filter>
+		</None>
+		<None Include="..\..\bootil\src\3rdParty\lzma\lzma.txt">
+			<Filter>bootil\src\3rdParty\lzma</Filter>
+		</None>
+		<None Include="..\..\bootil\src\3rdParty\xzip\readme.txt">
+			<Filter>bootil\src\3rdParty\xzip</Filter>
+		</None>
+	</ItemGroup>
+</Project>

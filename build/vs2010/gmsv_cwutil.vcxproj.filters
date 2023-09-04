@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="source">
+			<UniqueIdentifier>{B1DAB1BA-40BC-4743-A9D4-740167D840F8}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\source\getopt.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\Main.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\unistd.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\source\WebEasy.h">
+			<Filter>source</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\source\Main.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\WebEasy.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\source\getopt.c">
+			<Filter>source</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

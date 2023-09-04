@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{D7A82FC3-5258-6E4B-A53C-BCE2E2620703}</ProjectGuid>
+		<RootNamespace>Bootil</RootNamespace>
+		<Keyword>Win32Proj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>MultiByte</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<UseDebugLibraries>false</UseDebugLibraries>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>MultiByte</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<UseDebugLibraries>false</UseDebugLibraries>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\release\bootil\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\Bootil\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bootil_static</TargetName>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\release\bootil\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\Bootil\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bootil_static</TargetName>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalOptions>-static %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MaxSpeed</Optimization>
+			<AdditionalIncludeDirectories>..\..\bootil\include;..\..\bootil\src\3rdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>NDEBUG;BOOTIL_COMPILE_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MinimalRebuild>false</MinimalRebuild>
+			<StringPooling>true</StringPooling>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<FunctionLevelLinking>true</FunctionLevelLinking>
+			<PrecompiledHeader></PrecompiledHeader>
+			<WarningLevel>Level3</WarningLevel>
+			<EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+			<FloatingPointModel>Fast</FloatingPointModel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>NDEBUG;BOOTIL_COMPILE_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>..\..\bootil\include;..\..\bootil\src\3rdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+	<Lib>
+		<OutputFile>$(OutDir)bootil_static.lib</OutputFile>
+	</Lib>
+		<Link>
+			<SubSystem>Windows</SubSystem>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<ProgramDataBaseFileName>$(OutDir)bootil_static.pdb</ProgramDataBaseFileName>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalOptions>-static %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MaxSpeed</Optimization>
+			<AdditionalIncludeDirectories>..\..\bootil\include;..\..\bootil\src\3rdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>NDEBUG;BOOTIL_COMPILE_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MinimalRebuild>false</MinimalRebuild>
+			<StringPooling>true</StringPooling>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<FunctionLevelLinking>true</FunctionLevelLinking>
+			<PrecompiledHeader></PrecompiledHeader>
+			<WarningLevel>Level3</WarningLevel>
+			<EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+			<FloatingPointModel>Fast</FloatingPointModel>
+			<DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>NDEBUG;BOOTIL_COMPILE_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>..\..\bootil\include;..\..\bootil\src\3rdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+	<Lib>
+		<OutputFile>$(OutDir)bootil_static.lib</OutputFile>
+	</Lib>
+		<Link>
+			<SubSystem>Windows</SubSystem>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<ProgramDataBaseFileName>$(OutDir)bootil_static.pdb</ProgramDataBaseFileName>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\bootil\src\3rdParty\fastlz\fastlz.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\jpegcompressor\jpge.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\Alloc.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzFind.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzHash.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaDec.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaEnc.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\LzmaLib.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\lzma\Types.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\allocators.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\document.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\encodedstream.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\encodings.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filereadstream.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filestream.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\filewritestream.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\prettywriter.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\rapidjson.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\reader.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\stringbuffer.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\writer.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\pow10.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\stack.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\rapidjson\internal\strfunc.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Bitvec.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Platform.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\pstdint.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\smhasher\Types.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stb_image\stb_image.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base16.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base2.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base32.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\base64.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\error.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\iterator.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\lookup.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\stlencoders\traits.hpp" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\tinythreadpp\fast_mutex.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\tinythreadpp\tinythread.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\xzip\unzip.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\xzip\zip.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\crc32.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\deflate.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\gzguts.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inffast.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inffixed.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inflate.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\inftrees.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\trees.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zconf.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zlib.h" />
+		<ClInclude Include="..\..\bootil\src\3rdParty\zlib\zutil.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Base.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Bootil.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Console\Console.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Console\ConsoleInput.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Data\Json.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Data\Tree.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Debug\Debug.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Debug\InstanceCounter.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\File\Changes.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\File\File.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\File\System.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\Image.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\JPEG.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Image\PNG.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\HTTP.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Network.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Router.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Network\Socket.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Platform\Platform.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Mutex.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Thread.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Threads\Utility.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\Buffer.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\Math.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Types\String.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\CommandLine.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Compression.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Hasher.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\PackFile.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Processes.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\STLUtility.h" />
+		<ClInclude Include="..\..\bootil\include\Bootil\Utility\Time.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\bootil\src\3rdParty\globber.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\fastlz\fastlz.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\jpegcompressor\jpge.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\Alloc.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzFind.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaDec.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaEnc.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\lzma\LzmaLib.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\smhasher\crc.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\smhasher\smhash_md5.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\tinythreadpp\tinythread.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\xzip\unzip.cc">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\xzip\zip.cc">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\adler32.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\compress.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\crc32.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\deflate.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzclose.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzlib.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzread.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\gzwrite.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\infback.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inffast.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inflate.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\inftrees.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\trees.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\uncompr.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\3rdParty\zlib\zutil.c">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Base.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Console\Console.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Console\ConsoleInput.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Data\Json.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Data\Tree.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Debug\Debug.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\Changes.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\File.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\File\System.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Image\Image.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Image\JPEG.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\HTTP.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\Network.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Network\Socket.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_LINUX.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_NULL.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_OSX.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Platform\Platform_WINDOWS.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Mutex.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Thread.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Threads\Utility.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\Buffer.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\Math.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Convert.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Encode.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_File.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Format.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Sanitize.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Test.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_To.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_URL.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Types\String_Util.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\CommandLine.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Compression.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\CompressionLZMA.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Hasher.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\PackFile.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Processes.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bootil\src\Bootil\Utility\Time.cpp">
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\bootil\src\3rdParty\fastlz\README.TXT" />
+		<None Include="..\..\bootil\src\3rdParty\happyhttp\happyhttp.html" />
+		<None Include="..\..\bootil\src\3rdParty\lzma\lzma.txt" />
+		<None Include="..\..\bootil\src\3rdParty\xzip\readme.txt" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

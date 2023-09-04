@@ -1,0 +1,251 @@
+﻿cl : Command line warning D9002: ignoring unknown option '-static'
+  fastlz.c
+  Alloc.c
+  LzFind.c
+  LzmaDec.c
+  LzmaEnc.c
+  LzmaLib.c
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1015): note: see declaration of 'wcstombs'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1015): note: see declaration of 'wcstombs'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(243): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h(255): note: see declaration of '_wopen'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzlib.c(607): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1961): note: see declaration of '_snprintf'
+  gzread.c
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+  gzwrite.c
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(558): note: see declaration of 'write'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzwrite.c(101): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(558): note: see declaration of 'write'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\zlib\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  Generating Code...
+  Compiling...
+  zutil.c
+  Generating Code...
+cl : Command line warning D9002: ignoring unknown option '-static'
+  globber.cpp
+  happyhttp.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\happyhttp\happyhttp.cpp(185): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\happyhttp\happyhttp.cpp(189): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(2219): note: see declaration of 'gethostbyname'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\happyhttp\happyhttp.cpp(213): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1400): note: see declaration of '_vsnprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\happyhttp\happyhttp.cpp(364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\happyhttp\happyhttp.cpp(388): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  jpge.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\jpegcompressor\jpge.cpp(923): warning C4996: 'jpge::fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'jpge::fopen'
+  crc.cpp
+  smhash_md5.cpp
+  tinythread.cpp
+  unzip.cc
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(181): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(2883): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4074): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4107): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(94): note: see declaration of 'getcwd'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4140): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4205): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4258): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4392): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4396): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4419): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4422): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4425): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4509): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4515): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4520): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4525): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\unzip.cc(4689): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  zip.cc
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(666): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(496): note: see declaration of 'gmtime'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(685): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(697): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(2587): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(2691): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(2876): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(2910): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2459): note: see declaration of 'fileno'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3145): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3103): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3136): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\3rdparty\xzip\zip.cc(3403): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  Base.cpp
+  Console.cpp
+  ConsoleInput.cpp
+  Json.cpp
+  Tree.cpp
+  Debug.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\debug\debug.cpp(89): warning C4535: calling _set_se_translator() requires /EHa
+  Changes.cpp
+  File.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(55): warning C4244: 'argument': conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(61): warning C4244: 'argument': conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(62): warning C4244: 'argument': conversion from 'std::streamsize' to 'unsigned int', possible loss of data
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(179): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(206): warning C4996: 'rmdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _rmdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(116): note: see declaration of 'rmdir'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(212): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(381): note: see declaration of 'unlink'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(231): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1191): note: see declaration of 'getenv'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\file\file.cpp(242): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(440): note: see declaration of 'tmpnam'
+  System.cpp
+  Image.cpp
+  JPEG.cpp
+  HTTP.cpp
+  Generating Code...
+  Compiling...
+  Network.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\network\network.cpp(51): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+  Socket.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\network\socket.cpp(94): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\network\socket.cpp(96): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(2219): note: see declaration of 'gethostbyname'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\network\socket.cpp(100): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\network\socket.cpp(101): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(2197): note: see declaration of 'gethostbyaddr'
+  Platform_LINUX.cpp
+  Platform_NULL.cpp
+  Platform_OSX.cpp
+  Platform_WINDOWS.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\platform\platform_windows.cpp(76): warning C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(440): note: see declaration of 'tmpnam'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\platform\platform_windows.cpp(169): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(102): note: see declaration of 'chdir'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\platform\platform_windows.cpp(182): warning C4996: 'spawnv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _spawnv. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\process.h(331): note: see declaration of 'spawnv'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\platform\platform_windows.cpp(257): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(459): note: see declaration of 'kbhit'
+  Mutex.cpp
+  Thread.cpp
+  Utility.cpp
+  Buffer.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\buffer.cpp(162): warning C4018: '<': signed/unsigned mismatch
+  Math.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\math.cpp(11): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  String.cpp
+  String_Convert.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xutility(2414): warning C4244: '=': conversion from 'const wchar_t' to 'char', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xutility(2434): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _InIt=const wchar_t *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xutility(2445): note: see reference to function template instantiation '_OutIt *std::_Copy_unchecked<const wchar_t*,char*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _InIt=const wchar_t *
+          ]
+  c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_convert.cpp(12): note: see reference to function template instantiation '_OutIt std::copy<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Ty>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Ty=wchar_t,
+              _InIt=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  String_Encode.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_encode.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  String_File.cpp
+  String_Format.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_format.cpp(102): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+  String_Sanitize.cpp
+  String_Test.cpp
+  String_To.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_to.cpp(19): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(2263): note: see declaration of 'sscanf'
+  String_URL.cpp
+  Generating Code...
+  Compiling...
+  String_Util.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_util.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\types\string_util.cpp(109): warning C4018: '>': signed/unsigned mismatch
+  CommandLine.cpp
+  Compression.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\utility\compression.cpp(42): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\utility\compression.cpp(72): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  CompressionLZMA.cpp
+  Hasher.cpp
+  PackFile.cpp
+  Processes.cpp
+  Time.cpp
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\utility\time.cpp(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\ryan\downloads\gm_cloudauthx\bootil\src\bootil\utility\time.cpp(50): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+  Generating Code...
+  Bootil.vcxproj -> C:\Users\Ryan\Downloads\gm_cloudauthx\build\vs2015\..\..\release\bootil\bootil_static.lib

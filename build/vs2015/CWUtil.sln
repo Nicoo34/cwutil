@@ -1,0 +1,25 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bootil", "Bootil.vcxproj", "{AEF7EAA9-9A99-1580-8354-29D46F959CD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gmsv_cwutil", "gmsv_cwutil.vcxproj", "{D92CEC06-45E2-64FC-CED6-5ED33A8B5B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF7EAA9-9A99-1580-8354-29D46F959CD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AEF7EAA9-9A99-1580-8354-29D46F959CD0}.Debug|Win32.Build.0 = Debug|Win32
+		{AEF7EAA9-9A99-1580-8354-29D46F959CD0}.Release|Win32.ActiveCfg = Release|Win32
+		{AEF7EAA9-9A99-1580-8354-29D46F959CD0}.Release|Win32.Build.0 = Release|Win32
+		{D92CEC06-45E2-64FC-CED6-5ED33A8B5B00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D92CEC06-45E2-64FC-CED6-5ED33A8B5B00}.Debug|Win32.Build.0 = Debug|Win32
+		{D92CEC06-45E2-64FC-CED6-5ED33A8B5B00}.Release|Win32.ActiveCfg = Release|Win32
+		{D92CEC06-45E2-64FC-CED6-5ED33A8B5B00}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
