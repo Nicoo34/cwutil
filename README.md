@@ -3,8 +3,8 @@ CWUtil
 
 A Windows 64 bit compatible version of CWUtil.
 
-Status
+Credits
 ------
+VortixDev for his contribution by releasing cwUtil code.
 
-* Bootil is currently statically linking and the module works with it.
 
